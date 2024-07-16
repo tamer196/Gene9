@@ -1,0 +1,64 @@
+h3,
+h6,
+p {
+    text-align: center;
+}
+
+span{
+    color: #1E90FF;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    align-items: center;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+
+.wrapper {
+    margin: 60px;
+    background-color: #b4f9f2;
+}
+
+
+
+.btn-Violet {
+    display: block;
+    margin: 0 auto;
+    /* Center align the button */
+    background-color: #8A2BE2;
+    /* Replace with the desired primary color */
+    border-color: #8A2BE2;
+    /* Same border color as the background */
+    color: #fff;
+    /* Text color */
+}
+
+.btn-Violet:hover {
+    background-color: #6A1E9B;
+    /* Darker shade for hover effect */
+    border-color: #6A1E9B;
+    /* Darker border color for hover effect */
+}
+
+.custom-input {
+    width: 50%;
+    margin: 0 auto;
+    /* Center align the input */
+}
+
+.custom-input-group {
+    width: 50%;
+    margin: 0 auto;
+    /* Center align the input group */
+}
