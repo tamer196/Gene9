@@ -33,7 +33,7 @@ span{
 
 .btn-Violet {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 2px auto; /* Center align the button and add bottom margin */
     background-color: #8A2BE2;
     border-color: #8A2BE2;
     color: #fff;
@@ -61,11 +61,10 @@ span{
     border-color: red;
   }
 
-  
+
   .btn-container {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center align items horizontally */
     gap: 10px; /* Space between elements */
   }
-  

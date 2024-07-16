@@ -53,17 +53,7 @@
                     <h6><span>SIGN UP NOW AND GET STARTED</span> <br> Please enter your account information</h6>
                 </div>
                 <div>
-                    <form>
-                        <div class="mb-3 input-group custom-input-group">
-                          <span class="input-group-text">
-                            <img src="assets/icons/name_icon.png" alt="Icon" style="height: 1rem;">
-                          </span>
-                          <input type="text" class="form-control custom-input" [(ngModel)]="fullName" name="fullName"
-                                 (blur)="validateFullName()" (focus)="clearError('fullName')" placeholder="Full Name"
-                                 [ngClass]="{'invalid-input': errors.fullName}" required>
-                        </div>
-                        <div *ngIf="errors.fullName" class="error">{{ errors.fullName }}</div>
-                      
+                    <form>         
                         <div class="mb-3 input-group custom-input-group">
                           <span class="input-group-text">
                             <img src="assets/icons/email_icon.png" alt="Icon" style="height: 1rem;">
@@ -84,26 +74,12 @@
                         </div>
                         <div *ngIf="errors.password" class="error">{{ errors.password }}</div>
                       
-                        <div class="mb-3 input-group custom-input-group">
-                          <span class="input-group-text">
-                            <img src="assets/icons/password_icon.png" alt="Icon" style="height: 1rem;">
-                          </span>
-                          <input type="password" class="form-control custom-input" [(ngModel)]="confirmPassword" name="confirmPassword"
-                                 (blur)="validateConfirmPassword()" (focus)="clearError('confirmPassword')" placeholder="Confirm Password"
-                                 [ngClass]="{'invalid-input': errors.confirmPassword}" required>
-                        </div>
-                        <div *ngIf="errors.confirmPassword" class="error">{{ errors.confirmPassword }}</div>
-                      
-                        <div class="btn-container">  
-                            <button type="button" class="btn btn-Violet" (click)="activateNow()">Activate Now</button>
+                        <div class="btn-container">
+                            <button type="button" class="btn btn-Violet" (click)="activateNow()">SIGNIN</button>
                             <span>OR</span>
-                            <button type="button" class="btn btn-Violet" (click)="signin()">SIGNIN</button>
+                            <button type="button" class="btn btn-Violet" (click)="signup()">Activate Now</button>
                         </div>
                       </form>
-                      
-                      
-                      
-                      
                 </div>
             </div>
         </div>
