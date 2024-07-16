@@ -95,14 +95,10 @@ span{
     margin: 15px;
 }
 
-
 .btn-Violet {
     display: block;
-    /* Center align the button */
     background-color: #8A2BE2;
-    /* Replace with the desired primary color */
     border-color: #8A2BE2;
-    /* Same border color as the background */
     color: #fff;
     /* Text color */
     width: 25%;
@@ -110,12 +106,10 @@ span{
 
 .btn-Violet:hover {
     background-color: #6A1E9B;
-    /* Darker shade for hover effect */
     border-color: #6A1E9B;
-    /* Darker border color for hover effect */
-}
-
-.custom-input {
+  }
+  
+  .custom-input, .custom-input-group {
     width: 50%;
     /* Center align the input */
 }
@@ -177,3 +171,24 @@ span{
         width: 6vw;
     }
 }
+  
+  .error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    text-align: center; /* Center-align the error text */
+  }
+  
+  .invalid-input {
+    border-color: red;
+  }
+
+  
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    gap: 10px; /* Space between elements */
+  }
+  

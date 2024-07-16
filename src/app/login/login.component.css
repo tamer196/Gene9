@@ -1,0 +1,70 @@
+h3,
+h6,
+p {
+    text-align: center;
+}
+
+span{
+    color: #1E90FF;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    align-items: center;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+
+.wrapper {
+    margin: 60px;
+    background-color: #b4f9f2;
+}
+
+
+.btn-Violet {
+    display: block;
+    margin: 0 auto 2px auto; /* Center align the button and add bottom margin */
+    background-color: #8A2BE2;
+    border-color: #8A2BE2;
+    color: #fff;
+  }
+  
+  .btn-Violet:hover {
+    background-color: #6A1E9B;
+    border-color: #6A1E9B;
+  }
+  
+  .custom-input, .custom-input-group {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    text-align: center; /* Center-align the error text */
+  }
+  
+  .invalid-input {
+    border-color: red;
+  }
+
+
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    gap: 10px; /* Space between elements */
+  }
